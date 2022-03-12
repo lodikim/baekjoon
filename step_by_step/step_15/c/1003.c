@@ -26,7 +26,7 @@ void fibonacci(int N){
      
         for(int i=2; i<N+1; i++){
             fibo[i][0] = fibo[i-1][0] + fibo[i-2][0];
-            fibo[i][1] = fibo[i-1][1] + fibo[i-2][2];
+            fibo[i][1] = fibo[i-1][1] + fibo[i-2][1];
         }
         printf("%d %d\n", fibo[N][0], fibo[N][1]);
     }
