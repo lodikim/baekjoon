@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "random": "c",
-        "limits": "c"
+        "limits": "c",
+        "1912.C": "cpp"
     }
 }
